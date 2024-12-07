@@ -4,8 +4,14 @@ This project is built to recognize vehicles (buses, cars, trucks, motorcycles) a
 
 <div align="center">
     <img alt="demo1" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Face_before.gif">
+</div>
+<div align="center">
     <img alt="demo2" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Vehicles_before.gif">
+</div>
+<div align="center">
     <img alt="demo3" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Face_after.gif">
+</div>
+<div align="center">
     <img alt="demo4" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Vehicles_after.gif">
 </div>
 
