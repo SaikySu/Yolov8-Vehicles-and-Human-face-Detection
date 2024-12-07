@@ -2,6 +2,13 @@
 ## Introduction
 This project is built to recognize vehicles (buses, cars, trucks, motorcycles) and human faces in real-world environments using [YOLOv8](https://docs.ultralytics.com/models/yolov8/) with the details is YOLOv8m and YOLOv8n-face models. By identifying and numbering the IDs of the appearing objects, the model will track the disappearance time of the object and save it to a json file.
 
+<div align="center">
+    <img alt="demo1" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Face_before.gif">
+    <img alt="demo2" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Vehicles_before.gif">
+    <img alt="demo3" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Face_after.gif">
+    <img alt="demo4" src="https://github.com/SaikySu/Yolov8-Vehicles-and-Human-face-Detection/blob/main/Example/Vehicles_after.gif">
+</div>
+
 ## How to use
 1. Download the source code in the repository.
 2. Install all requirements libraries
