@@ -5,7 +5,7 @@ This project is built to recognize vehicles (buses, cars, trucks, motorcycles) a
 ## How to use
 1. Download the source code in the repository.
 2. Install all requirements libraries
-3. run this code: 
+3. Run this code in: 
 
 ```python
     python Object_Detection.py --input Your_video/mp4
@@ -19,6 +19,8 @@ This project is built to recognize vehicles (buses, cars, trucks, motorcycles) a
 **Bounding Boxes**: When detecting a vehicle or human face, the model will Bounding Boxes and assign IDs. Parameters displayed on the output include: ID of the vehicle/face in the video and the accompanying accuracy.
 
 **Time appeared and disappeared**: The time of appearance of the vehicle/face is recorded in the json file exported with the output video.
+
+**Output**: The output video has a quality corresponding to the quality of the input video and the json file has a name corresponding to the name of the input video.
 
 ## Requirements
 * CV2
