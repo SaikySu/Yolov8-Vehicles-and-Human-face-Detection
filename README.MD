@@ -1,4 +1,4 @@
-# Recognize vehicles and human face by YOLOv8
+# Recognize Vehicles and Human Face by YOLOv8
 ## Introduction
 This project is built to recognize vehicles (buses, cars, trucks, motorcycles) and human faces in real-world environments using [YOLOv8](https://docs.ultralytics.com/models/yolov8/) with the details is YOLOv8m and YOLOv8n-face models. By identifying and numbering the IDs of the appearing objects, the model will track the disappearance time of the object and save it to a json file.
 
