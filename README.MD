@@ -36,3 +36,16 @@ This project is built to recognize vehicles (buses, cars, trucks, motorcycles) a
 * Json
 * Collections
 * Os
+
+## Some notes:
+* This model recognizes the car using the YOLOv8m model to detection vehicale, if you want to change the model, you can change at:
+
+```python
+    parser.add_argument('--vehicle_model', type=str, default='models/yolov8m.pt', help="Path to vehicle detection model")
+```
+
+* Similar, model recognizes the car using the YOLOv8n-face model to detection Human face, if you want to change the model, you can change at:
+
+```python
+    parser.add_argument('--face_model', type=str, default='models/yolov8n-face.pt', help="Path to face detection model")
+```
